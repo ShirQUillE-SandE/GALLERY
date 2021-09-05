@@ -1,4 +1,4 @@
-#!/home/moringaschool/Videos/CameraRoll/virtual/bin/python3
+#!/home/moringaschool/Videos/GALLERYZ/virtual/bin/python3
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
