@@ -1,0 +1,59 @@
+<style>
+  .navbar {
+    background: linear-gradient(0.25turn, #F56217, #98daf7, #938cf8, #f5a147, #98daf7);
+    border: none;
+    border-radius: 0%;
+    margin: 0%;
+  }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Playball&display=swap" rel="stylesheet">
+<nav class="navbar navbar-default">
+  <div class="container-fluid" style="font-family: 'Bad Script', cursive; font-weight: bold;">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/" style="color: black; font-size:28px">CameraRoll</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="/">Home <span class="sr-only"></span></a></li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle white-text" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" style="color: black; font-size:20px">Location
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            {% for location in locations%}
+            <ul>
+              <li>
+                <a class="dropdown-item; display: none; position: absolute; background-color: #f9f9f9;
+              " href="/location/{{location.name}}">{{location.name}}</a>
+              </li>
+            </ul>
+            {%endfor%}
+          </div>
+        </li>
+      </ul>
+      <form class="navbar-form nav navbar-nav navbar-center" role="search" action="{% url 'search_results' %}">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search image" name="image_search">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+          </div>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
