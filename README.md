@@ -64,5 +64,3 @@ Search for different categories and to View photos based on the location they we
 ## License
 
 CameraRoll is under the [MIT](LICENSE) license.
-
-@Jaycreations-2021.
