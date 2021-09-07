@@ -62,5 +62,5 @@ Search for different categories and to View photos based on the location they we
 [View Live Site.](https://cameraroll.herokuapp.com/)
 
 ## License
-
+   
 gallery is under the [MIT](LICENSE) license.                                                             
