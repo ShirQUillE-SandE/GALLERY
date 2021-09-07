@@ -11,7 +11,7 @@ Gallery is a Python/Django application of a gallery that displays  photos which 
 ## User Story
 
 View different photos that interest them, Click a single image to view the details of that photo,
-Search for different categories and to View photos based on the location they were taken.
+Search for different categories and to View photos based on the location they were taken.   
 
 ## Setting up the project and Installation of Requirements.
 
