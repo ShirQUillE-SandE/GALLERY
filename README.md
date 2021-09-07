@@ -33,7 +33,7 @@ Search for different categories and to View photos based on the location they we
 
 * python3 manage.py runserver
 
-5. Testing the application:
+5. Testing the application:    
 
 * python3 manage.py test gallery
 
