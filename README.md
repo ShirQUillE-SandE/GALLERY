@@ -63,4 +63,4 @@ Search for different categories and to View photos based on the location they we
 
 ## License
    
-gallery is under the [MIT](LICENSE) license.                                                                           
+gallery is under the [MIT](LICENSE) license.                                                                                  
