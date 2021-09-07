@@ -43,7 +43,7 @@ Search for different categories and to View photos based on the location they we
 2. Python3
 3. Git
 
-
+   
 
 ## Dependencies:
 
