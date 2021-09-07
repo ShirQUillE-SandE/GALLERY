@@ -4,7 +4,7 @@
 
 Shirquille Sande
 
-## Description.
+## Description.  
 
 Gallery is a Python/Django application of a gallery that displays  photos which can only be added by the admin for users to view and in which  the images are organised in categories and in locations.
 
