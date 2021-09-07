@@ -47,8 +47,8 @@ Search for different categories and to View photos based on the location they we
 
 ## Dependencies:
 
-1. python3.8.11
-2. Django 1.11.17
+1. python3
+2. Django3
 3. virtual environment
    which is activated by typing the following command on your terminal :( source/bin/activate )
 4. heroku
